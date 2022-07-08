@@ -151,7 +151,6 @@ z.rci<- readxl::read_excel("G:/SASData/Marketing/fuentes_compartidas/homologacio
            Sala %in% c("AGENCIAUTO LA 77") ~ "AGENCIAUTO PLAZA 77",
            Sala %in% c("ALBORAUTOS BUENAVENTURA") ~ "ALBORAUTOS FLORENCIA",
            Sala %in% c("AGENCIAUTO ITAGÜI") ~ "AGENCIAUTO ITAGUI",
-           Sala %in% c("AGENCIAUTO ITAGÜI") ~ "AGENCIAUTO ITAGUI",
            Sala %in% c("AGENCIAUTO ITAGÜI") ~ "AGENCIAUTO ITAGUI") %>% 
   unique()
 
